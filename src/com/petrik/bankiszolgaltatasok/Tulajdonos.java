@@ -1,6 +1,6 @@
 package com.petrik.bankiszolgaltatasok;
 
-public abstract class Tulajdonos {
+public class Tulajdonos {
     private String nev;
 
     public String getNev() {

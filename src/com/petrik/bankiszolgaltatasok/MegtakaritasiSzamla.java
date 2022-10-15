@@ -23,7 +23,7 @@ public class MegtakaritasiSzamla extends Szamla {
         this.kamat = kamat;
     }
 
-    private void kamatJovairas(){
+    void kamatJovairas(){
         //tul degeneralt vagyok ahhoz hogy felfogjam
         befizet((int)kamat*this.getAktualisEgyenleg());
     }

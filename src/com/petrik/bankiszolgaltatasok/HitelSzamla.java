@@ -8,7 +8,7 @@ public class HitelSzamla extends Szamla{
         return hitelKeret;
     }
 
-    public HitelSzamla(Tulajdonos tulajdonos) {
+    public HitelSzamla(Tulajdonos tulajdonos, int hitelkeret) {
         super(tulajdonos);
     }
 
